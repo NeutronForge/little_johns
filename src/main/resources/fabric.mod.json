@@ -1,0 +1,56 @@
+{
+	"schemaVersion": 1,
+	"id": "little_johns",
+	"version": "${version}",
+	"name": "Little John's: Galvanized Square Steel",
+	"description": "Little John is renovating",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"discord": "@blightedheart",
+		"sources": "https://github.com/NeutronForge/",
+		"modrinth": "https://modrinth.com/mod/",
+		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/"
+	},
+	"license": "MIT",
+	"icon": "assets/little_johns/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "net.echo.little_johns.LittleJohns",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "net.echo.little_johns.LittleJohnsClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "net.echo.little_johns.LittleJohnsDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"little_johns.mixins.json",
+		{
+			"config": "little_johns.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
