@@ -1,0 +1,8 @@
+{
+	"parent": "little_johns:block/table_saw",
+	"textures": {
+		"log": "minecraft:block/crimson_stem",
+		"planks": "minecraft:block/crimson_planks",
+		"saw_blade": "little_johns:block/table_saw_gold"
+	}
+}

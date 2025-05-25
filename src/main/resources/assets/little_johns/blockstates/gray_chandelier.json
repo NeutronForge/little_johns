@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,lit=false": {
+      "model": "little_johns:block/gray_chandelier"
+    },
+    "hanging=false,lit=true": {
+      "model": "little_johns:block/gray_chandelier_lit"
+    },
+    "hanging=true,lit=false": {
+      "model": "little_johns:block/gray_chandelier_hanging"
+    },
+    "hanging=true,lit=true": {
+      "model": "little_johns:block/gray_chandelier_hanging_lit"
+    }
+  }
+}

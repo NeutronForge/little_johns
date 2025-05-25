@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "little_johns:block/acacia_table_saw",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "little_johns:block/acacia_table_saw"
+    },
+    "facing=south": {
+      "model": "little_johns:block/acacia_table_saw",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "little_johns:block/acacia_table_saw",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "little_johns:block/wood_framework_horizontal",
+	"textures": {
+		"framework": "minecraft:block/cherry_log"
+	}
+}

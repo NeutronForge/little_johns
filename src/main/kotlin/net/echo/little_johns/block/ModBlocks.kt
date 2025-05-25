@@ -4,11 +4,11 @@ import net.echo.little_johns.LittleJohns
 import net.echo.little_johns.block.custom.BeamBlock
 import net.echo.little_johns.block.custom.ChandelierBlock
 import net.echo.little_johns.block.custom.ColossalChainBlock
-import net.echo.little_johns.block.custom.EcoFriendlyCherryLeafVeneersBlock
 import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock
-import net.echo.little_johns.block.custom.GalvanizedSquareSteelBlock
 import net.echo.little_johns.block.custom.GrandChainBlock
 import net.echo.little_johns.block.custom.TableSawBlock
+import net.echo.little_johns.block.custom.TintedParticleEcoFriendlyLeavesVeneersBlock
+import net.echo.little_johns.block.custom.UntintedParticleEcoFriendlyLeavesVeneersBlock
 import net.echo.little_johns.item.ModItems
 import net.echo.little_johns.sound.ModBlockSoundGroup
 import net.minecraft.block.AbstractBlock
@@ -21,11 +21,13 @@ import net.minecraft.block.FenceGateBlock
 import net.minecraft.block.MapColor
 import net.minecraft.block.SlabBlock
 import net.minecraft.block.StairsBlock
-import net.minecraft.block.TintedParticleLeavesBlock
+import net.minecraft.block.UntintedParticleLeavesBlock
 import net.minecraft.block.WallBlock
 import net.minecraft.block.WoodType
 import net.minecraft.block.piston.PistonBehavior
 import net.minecraft.item.BlockItem
+import net.minecraft.particle.EntityEffectParticleEffect
+import net.minecraft.particle.ParticleTypes
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
@@ -38,7 +40,7 @@ object ModBlocks {
 
 
     // MISC
-    val BAMBOO_LEAVES = registerBlockWithItem("bamboo_leaves",{ settings -> TintedParticleLeavesBlock(0.01f, settings) },createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val BAMBOO_LEAVES = registerBlockWithItem("bamboo_leaves",{ settings -> UntintedParticleLeavesBlock(0.01F, EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -11712407), settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
 
 
 
@@ -47,8 +49,8 @@ object ModBlocks {
     val GALVANIZED_SQUARE_STEEL_STAIRS = registerBlockWithItem("galvanized_square_steel_stairs", { settings -> StairsBlock(GALVANIZED_SQUARE_STEEL_BLOCK.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)).first
     val GALVANIZED_SQUARE_STEEL_SLAB = registerBlockWithItem("galvanized_square_steel_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)).first
     val GALVANIZED_SQUARE_STEEL_BEAM = registerBlockWithItem("galvanized_square_steel_beam", { settings -> BeamBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHAIN).nonOpaque().sounds(BlockSoundGroup.NETHERITE)).first
-    val GALVANIZED_SQUARE_STEEL = registerBlockWithItem("galvanized_square_steel", { settings -> GalvanizedSquareSteelBlock(settings) }, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()).first
-    val GALVANIZED_SQUARE_STEEL_GRATE = registerBlockWithItem("galvanized_square_steel_grate", { settings -> GalvanizedSquareSteelBlock(settings) }, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()).first
+    val GALVANIZED_SQUARE_STEEL = registerBlockWithItem("galvanized_square_steel", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()).first
+    val GALVANIZED_SQUARE_STEEL_GRATE = registerBlockWithItem("galvanized_square_steel_grate", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()).first
 
 
 
@@ -117,18 +119,18 @@ object ModBlocks {
 
 
     // LEAF VENEERS
-    val ECO_FRIENDLY_OAK_LEAF_VENEERS = registerBlockWithItem("eco_friendly_oak_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_SPRUCE_LEAF_VENEERS = registerBlockWithItem("eco_friendly_spruce_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_BIRCH_LEAF_VENEERS = registerBlockWithItem("eco_friendly_birch_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_JUNGLE_LEAF_VENEERS = registerBlockWithItem("eco_friendly_jungle_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_ACACIA_LEAF_VENEERS = registerBlockWithItem("eco_friendly_acacia_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_DARK_OAK_LEAF_VENEERS = registerBlockWithItem("eco_friendly_dark_oak_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_MANGROVE_LEAF_VENEERS = registerBlockWithItem("eco_friendly_mangrove_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_CHERRY_LEAF_VENEERS = registerBlockWithItem("eco_friendly_cherry_leaf_veneers", { settings -> EcoFriendlyCherryLeafVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_PALE_OAK_LEAF_VENEERS = registerBlockWithItem("eco_friendly_pale_oak_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_AZALEA_LEAF_VENEERS = registerBlockWithItem("eco_friendly_azalea_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.AZALEA_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS = registerBlockWithItem("eco_friendly_flowering_azalea_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.FLOWERING_AZALEA_LEAVES).nonOpaque()).first
-    val ECO_FRIENDLY_BAMBOO_LEAF_VENEERS = registerBlockWithItem("eco_friendly_bamboo_leaf_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_LEAVES).nonOpaque()).first
+    val ECO_FRIENDLY_OAK_LEAF_VENEERS = registerBlockWithItem("eco_friendly_oak_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_SPRUCE_LEAF_VENEERS = registerBlockWithItem("eco_friendly_spruce_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_BIRCH_LEAF_VENEERS = registerBlockWithItem("eco_friendly_birch_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_JUNGLE_LEAF_VENEERS = registerBlockWithItem("eco_friendly_jungle_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_ACACIA_LEAF_VENEERS = registerBlockWithItem("eco_friendly_acacia_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_DARK_OAK_LEAF_VENEERS = registerBlockWithItem("eco_friendly_dark_oak_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_MANGROVE_LEAF_VENEERS = registerBlockWithItem("eco_friendly_mangrove_leaf_veneers", { settings -> TintedParticleEcoFriendlyLeavesVeneersBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ECO_FRIENDLY_CHERRY_LEAF_VENEERS = registerBlockWithItem("eco_friendly_cherry_leaf_veneers", { settings -> UntintedParticleEcoFriendlyLeavesVeneersBlock(0.1f,ParticleTypes.CHERRY_LEAVES, settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)).first
+    val ECO_FRIENDLY_PALE_OAK_LEAF_VENEERS = registerBlockWithItem("eco_friendly_pale_oak_leaf_veneers", { settings -> UntintedParticleEcoFriendlyLeavesVeneersBlock(0.02f,ParticleTypes.PALE_OAK_LEAVES, settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES)).first
+    val ECO_FRIENDLY_AZALEA_LEAF_VENEERS = registerBlockWithItem("eco_friendly_azalea_leaf_veneers", { settings -> UntintedParticleEcoFriendlyLeavesVeneersBlock(0.01f,EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -9399763), settings) }, createLeavesSettings(BlockSoundGroup.AZALEA_LEAVES)).first
+    val ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS = registerBlockWithItem("eco_friendly_flowering_azalea_leaf_veneers", { settings -> UntintedParticleEcoFriendlyLeavesVeneersBlock(0.01f,EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -9399763), settings) }, createLeavesSettings(BlockSoundGroup.AZALEA_LEAVES)).first
+    val ECO_FRIENDLY_BAMBOO_LEAF_VENEERS = registerBlockWithItem("eco_friendly_bamboo_leaf_veneers", { settings -> UntintedParticleEcoFriendlyLeavesVeneersBlock(0.01f,EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -11712407), settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
     val ECO_FRIENDLY_NETHER_WART_VENEERS = registerBlockWithItem("eco_friendly_nether_wart_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK).nonOpaque()).first
     val ECO_FRIENDLY_WARPED_WART_VENEERS = registerBlockWithItem("eco_friendly_warped_wart_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_WART_BLOCK).nonOpaque()).first
 
@@ -285,6 +287,13 @@ object ModBlocks {
 
 
 
+
+    val allTableSaws = listOf(
+        OAK_TABLE_SAW, SPRUCE_TABLE_SAW, BIRCH_TABLE_SAW,
+        JUNGLE_TABLE_SAW, ACACIA_TABLE_SAW, DARK_OAK_TABLE_SAW,
+        MANGROVE_TABLE_SAW, CHERRY_TABLE_SAW, PALE_OAK_TABLE_SAW,
+        BAMBOO_TABLE_SAW, CRIMSON_TABLE_SAW, WARPED_TABLE_SAW
+    )
 
 
 

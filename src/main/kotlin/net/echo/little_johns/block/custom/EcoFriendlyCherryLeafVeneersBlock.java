@@ -21,7 +21,7 @@ import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
 public class EcoFriendlyCherryLeafVeneersBlock
-        extends MultifaceBlock
+        extends ModdedMultifaceBlock
         implements Waterloggable {
 
     public static final MapCodec<EcoFriendlyCherryLeafVeneersBlock> CODEC = EcoFriendlyCherryLeafVeneersBlock.createCodec(EcoFriendlyCherryLeafVeneersBlock::new);

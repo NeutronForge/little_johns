@@ -37,7 +37,7 @@ object ModItems {
             content.addAfter(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS, ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB)
             content.addAfter(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB, ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM)
             content.addAfter(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM, ModBlocks.GALVANIZED_SQUARE_STEEL)
-            content.addAfter(ModBlocks.GALVANIZED_SQUARE_STEEL, ModBlocks.GALVANIZED_SQUARE_STEEL)
+            content.addAfter(ModBlocks.GALVANIZED_SQUARE_STEEL, ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE)
         }
     }
 
@@ -245,7 +245,7 @@ object ModItems {
             content.addAfter(ModBlocks.DARK_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS, ModBlocks.DARK_OAK_WOOD_FRAMEWORK)
             content.addAfter(Items.DARK_OAK_SLAB, ModBlocks.DARK_OAK_PLANK_WALL)
-            content.addAfter(Items.DARK_OAK_FENCE_GATE, ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS)
+            content.addAfter(Items.DARK_OAK_FENCE_GATE, ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS)
         }
 
         // Mangrove
@@ -272,6 +272,58 @@ object ModItems {
             content.addAfter(ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS, ModBlocks.CHERRY_WOOD_FRAMEWORK)
             content.addAfter(Items.CHERRY_SLAB, ModBlocks.CHERRY_PLANK_WALL)
             content.addAfter(Items.CHERRY_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS)
+        }
+
+        // Pale Oak
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register { content ->
+            content.addAfter(Items.PALE_OAK_WOOD, ModBlocks.PALE_OAK_WOOD_STAIRS)
+            content.addAfter(ModBlocks.PALE_OAK_WOOD_STAIRS, ModBlocks.PALE_OAK_WOOD_SLAB)
+            content.addAfter(ModBlocks.PALE_OAK_WOOD_SLAB, ModBlocks.PALE_OAK_WOOD_WALL)
+            content.addAfter(ModBlocks.PALE_OAK_WOOD_WALL, ModBlocks.PALE_OAK_WOOD_FENCE)
+            content.addAfter(ModBlocks.PALE_OAK_WOOD_FENCE, ModBlocks.PALE_OAK_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.PALE_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_PALE_OAK_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_PALE_OAK_WOOD_VENEERS, ModBlocks.PALE_OAK_WOOD_FRAMEWORK)
+            content.addAfter(Items.PALE_OAK_SLAB, ModBlocks.PALE_OAK_PLANK_WALL)
+            content.addAfter(Items.PALE_OAK_FENCE_GATE, ModBlocks.ECO_FRIENDLY_PALE_OAK_PLANK_VENEERS)
+        }
+
+        // Bamboo
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register { content ->
+            content.addAfter(Items.BAMBOO_BLOCK, ModBlocks.BAMBOO_STEM_STAIRS)
+            content.addAfter(ModBlocks.BAMBOO_STEM_STAIRS, ModBlocks.BAMBOO_STEM_SLAB)
+            content.addAfter(ModBlocks.BAMBOO_STEM_SLAB, ModBlocks.BAMBOO_STEM_WALL)
+            content.addAfter(ModBlocks.BAMBOO_STEM_WALL, ModBlocks.BAMBOO_STEM_FENCE)
+            content.addAfter(ModBlocks.BAMBOO_STEM_FENCE, ModBlocks.BAMBOO_STEM_FENCE_GATE)
+            content.addAfter(ModBlocks.BAMBOO_STEM_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS, ModBlocks.BAMBOO_FRAMEWORK)
+            content.addAfter(Items.BAMBOO_SLAB, ModBlocks.BAMBOO_PLANK_WALL)
+            content.addAfter(Items.BAMBOO_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS)
+        }
+
+        // Crimson
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register { content ->
+            content.addAfter(Items.CRIMSON_HYPHAE, ModBlocks.CRIMSON_HYPHAE_STAIRS)
+            content.addAfter(ModBlocks.CRIMSON_HYPHAE_STAIRS, ModBlocks.CRIMSON_HYPHAE_SLAB)
+            content.addAfter(ModBlocks.CRIMSON_HYPHAE_SLAB, ModBlocks.CRIMSON_HYPHAE_WALL)
+            content.addAfter(ModBlocks.CRIMSON_HYPHAE_WALL, ModBlocks.CRIMSON_HYPHAE_FENCE)
+            content.addAfter(ModBlocks.CRIMSON_HYPHAE_FENCE, ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
+            content.addAfter(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS, ModBlocks.CRIMSON_HYPHAE_FRAMEWORK)
+            content.addAfter(Items.CRIMSON_SLAB, ModBlocks.CRIMSON_PLANK_WALL)
+            content.addAfter(Items.CRIMSON_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS)
+        }
+
+        // Warped
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register { content ->
+            content.addAfter(Items.WARPED_HYPHAE, ModBlocks.WARPED_HYPHAE_STAIRS)
+            content.addAfter(ModBlocks.WARPED_HYPHAE_STAIRS, ModBlocks.WARPED_HYPHAE_SLAB)
+            content.addAfter(ModBlocks.WARPED_HYPHAE_SLAB, ModBlocks.WARPED_HYPHAE_WALL)
+            content.addAfter(ModBlocks.WARPED_HYPHAE_WALL, ModBlocks.WARPED_HYPHAE_FENCE)
+            content.addAfter(ModBlocks.WARPED_HYPHAE_FENCE, ModBlocks.WARPED_HYPHAE_FENCE_GATE)
+            content.addAfter(ModBlocks.WARPED_HYPHAE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS, ModBlocks.WARPED_HYPHAE_FRAMEWORK)
+            content.addAfter(Items.WARPED_SLAB, ModBlocks.WARPED_PLANK_WALL)
+            content.addAfter(Items.WARPED_FENCE_GATE, ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS)
         }
     }
 

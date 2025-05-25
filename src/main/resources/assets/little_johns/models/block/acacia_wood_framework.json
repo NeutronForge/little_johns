@@ -1,0 +1,6 @@
+{
+	"parent": "little_johns:block/wood_framework_vertical",
+	"textures": {
+		"framework": "minecraft:block/acacia_log"
+	}
+}

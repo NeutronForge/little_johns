@@ -1,0 +1,50 @@
+{
+	"credit": "Made by Echo",
+	"textures": {
+		"particle": "#veneers"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 2],
+			"color": 7,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#veneers"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#veneers"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#veneers"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#veneers"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#veneers"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#veneers"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 4],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3, 4],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [-2.13, 3.2, 0.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 25],
+			"translation": [-2.13, 3.2, 0.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"ground": {
+			"translation": [0, 3, 1.75],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"fixed": {
+			"translation": [0, 0, 14],
+			"scale": [2, 2, 2]
+		}
+	}
+}

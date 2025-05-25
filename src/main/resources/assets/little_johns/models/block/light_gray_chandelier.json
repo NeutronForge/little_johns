@@ -1,0 +1,7 @@
+{
+	"parent": "little_johns:block/chandelier_template",
+	"textures": {
+		"chandelier": "little_johns:block/chandelier",
+		"candle": "minecraft:block/light_gray_candle"
+	}
+}

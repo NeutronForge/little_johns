@@ -1,0 +1,8 @@
+{
+	"parent": "little_johns:block/chandelier_hanging_template",
+	"textures": {
+		"chandelier": "little_johns:block/chandelier",
+		"chain": "minecraft:block/chain",
+		"candle": "minecraft:block/candle_lit"
+	}
+}

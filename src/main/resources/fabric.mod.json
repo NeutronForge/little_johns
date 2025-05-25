@@ -5,11 +5,11 @@
 	"name": "Little John's: Galvanized Square Steel",
 	"description": "Little John is renovating",
 	"authors": [
-		"Me!"
+		"Echo"
 	],
 	"contact": {
 		"discord": "@blightedheart",
-		"sources": "https://github.com/NeutronForge/",
+		"sources": "https://github.com/NeutronForge/little_johns",
 		"modrinth": "https://modrinth.com/mod/",
 		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/"
 	},
@@ -43,6 +43,7 @@
 			"environment": "client"
 		}
 	],
+	"accessWidener": "little_johns.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.5",
