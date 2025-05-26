@@ -86,6 +86,24 @@ object ModBlocks {
 
 
 
+    // STRIPPED WOOD FRAMEWORK
+    val STRIPPED_OAK_WOOD_FRAMEWORK = registerBlockWithItem("stripped_oak_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD).nonOpaque()).first
+    val STRIPPED_SPRUCE_WOOD_FRAMEWORK = registerBlockWithItem("stripped_spruce_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD).nonOpaque()).first
+    val STRIPPED_BIRCH_WOOD_FRAMEWORK = registerBlockWithItem("stripped_birch_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD).nonOpaque()).first
+    val STRIPPED_JUNGLE_WOOD_FRAMEWORK = registerBlockWithItem("stripped_jungle_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD).nonOpaque()).first
+    val STRIPPED_ACACIA_WOOD_FRAMEWORK = registerBlockWithItem("stripped_acacia_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD).nonOpaque()).first
+    val STRIPPED_DARK_OAK_WOOD_FRAMEWORK = registerBlockWithItem("stripped_dark_oak_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD).nonOpaque()).first
+    val STRIPPED_MANGROVE_WOOD_FRAMEWORK = registerBlockWithItem("stripped_mangrove_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD).nonOpaque()).first
+    val STRIPPED_CHERRY_WOOD_FRAMEWORK = registerBlockWithItem("stripped_cherry_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD).nonOpaque()).first
+    val STRIPPED_PALE_OAK_WOOD_FRAMEWORK = registerBlockWithItem("stripped_pale_oak_wood_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD).nonOpaque()).first
+    val STRIPPED_BAMBOO_FRAMEWORK = registerBlockWithItem("stripped_bamboo_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS).nonOpaque()).first
+    val STRIPPED_CRIMSON_HYPHAE_FRAMEWORK = registerBlockWithItem("stripped_crimson_hyphae_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE).nonOpaque()).first
+    val STRIPPED_WARPED_HYPHAE_FRAMEWORK = registerBlockWithItem("stripped_warped_hyphae_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE).nonOpaque()).first
+
+    val BAMBOO_MOSAIC_FRAMEWORK = registerBlockWithItem("mosaic_bamboo_framework", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_MOSAIC).nonOpaque()).first
+
+
+
     // WOOD PLANK VENEERS
     val ECO_FRIENDLY_OAK_PLANK_VENEERS = registerBlockWithItem("eco_friendly_oak_plank_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()).first
     val ECO_FRIENDLY_SPRUCE_PLANK_VENEERS = registerBlockWithItem("eco_friendly_spruce_plank_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_PLANKS).nonOpaque()).first
@@ -99,6 +117,8 @@ object ModBlocks {
     val ECO_FRIENDLY_BAMBOO_PLANK_VENEERS = registerBlockWithItem("eco_friendly_bamboo_plank_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS).nonOpaque()).first
     val ECO_FRIENDLY_CRIMSON_PLANK_VENEERS = registerBlockWithItem("eco_friendly_crimson_plank_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS).nonOpaque()).first
     val ECO_FRIENDLY_WARPED_PLANK_VENEERS = registerBlockWithItem("eco_friendly_warped_plank_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_PLANKS).nonOpaque()).first
+
+    val ECO_FRIENDLY_BAMBOO_MOSAIC_VENEERS = registerBlockWithItem("eco_friendly_bamboo_mosaic_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_MOSAIC).nonOpaque()).first
 
 
 
@@ -115,6 +135,22 @@ object ModBlocks {
     val ECO_FRIENDLY_BAMBOO_VENEERS = registerBlockWithItem("eco_friendly_bamboo_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS).nonOpaque()).first
     val ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS = registerBlockWithItem("eco_friendly_crimson_hyphae_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE).nonOpaque()).first
     val ECO_FRIENDLY_WARPED_HYPHAE_VENEERS = registerBlockWithItem("eco_friendly_warped_hyphae_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE).nonOpaque()).first
+
+
+
+    // STRIPPED WOOD LOG VENEERS
+    val ECO_FRIENDLY_STRIPPED_OAK_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_oak_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_SPRUCE_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_spruce_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_BIRCH_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_birch_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_JUNGLE_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_jungle_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_ACACIA_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_acacia_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_DARK_OAK_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_dark_oak_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_MANGROVE_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_mangrove_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_CHERRY_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_cherry_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_PALE_OAK_WOOD_VENEERS = registerBlockWithItem("eco_friendly_stripped_pale_oak_wood_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD).nonOpaque()).first
+    //val ECO_FRIENDLY_STRIPPED_BAMBOO_VENEERS = registerBlockWithItem("eco_friendly_stripped_bamboo_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_CRIMSON_HYPHAE_VENEERS = registerBlockWithItem("eco_friendly_stripped_crimson_hyphae_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE).nonOpaque()).first
+    val ECO_FRIENDLY_STRIPPED_WARPED_HYPHAE_VENEERS = registerBlockWithItem("eco_friendly_stripped_warped_hyphae_veneers", { settings -> EcoFriendlyWoodVeneersBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE).nonOpaque()).first
 
 
 
@@ -179,6 +215,24 @@ object ModBlocks {
 
 
 
+    // STRIPPED FENCES
+    val STRIPPED_OAK_WOOD_FENCE = registerBlockWithItem("stripped_oak_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
+    val STRIPPED_SPRUCE_WOOD_FENCE = registerBlockWithItem("stripped_spruce_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
+    val STRIPPED_BIRCH_WOOD_FENCE = registerBlockWithItem("stripped_birch_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)).first
+    val STRIPPED_JUNGLE_WOOD_FENCE = registerBlockWithItem("stripped_jungle_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)).first
+    val STRIPPED_ACACIA_WOOD_FENCE = registerBlockWithItem("stripped_acacia_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)).first
+    val STRIPPED_DARK_OAK_WOOD_FENCE = registerBlockWithItem("stripped_dark_oak_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)).first
+    val STRIPPED_MANGROVE_WOOD_FENCE = registerBlockWithItem("stripped_mangrove_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)).first
+    val STRIPPED_CHERRY_WOOD_FENCE = registerBlockWithItem("stripped_cherry_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)).first
+    val STRIPPED_PALE_OAK_WOOD_FENCE = registerBlockWithItem("stripped_pale_oak_wood_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD)).first
+    //val STRIPPED_BAMBOO_STEM_FENCE = registerBlockWithItem("stripped_bamboo_stem_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
+    val STRIPPED_CRIMSON_HYPHAE_FENCE = registerBlockWithItem("stripped_crimson_hyphae_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
+    val STRIPPED_WARPED_HYPHAE_FENCE = registerBlockWithItem("stripped_warped_hyphae_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
+
+    val BAMBOO_MOSAIC_FENCE = registerBlockWithItem("bamboo_mosaic_fence", { settings -> FenceBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_MOSAIC)).first
+
+
+
     // FENCE GATES
     val OAK_WOOD_FENCE_GATE = registerBlockWithItem("oak_wood_fence_gate", { settings -> FenceGateBlock(WoodType.OAK, settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
     val SPRUCE_WOOD_FENCE_GATE = registerBlockWithItem("spruce_wood_fence_gate", { settings -> FenceGateBlock(WoodType.SPRUCE, settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
@@ -192,6 +246,24 @@ object ModBlocks {
     val BAMBOO_STEM_FENCE_GATE = registerBlockWithItem("bamboo_stem_fence_gate", { settings -> FenceGateBlock(WoodType.BAMBOO, settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
     val CRIMSON_HYPHAE_FENCE_GATE = registerBlockWithItem("crimson_hyphae_fence_gate", { settings -> FenceGateBlock(WoodType.CRIMSON, settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
     val WARPED_HYPHAE_FENCE_GATE = registerBlockWithItem("warped_hyphae_fence_gate", { settings -> FenceGateBlock(WoodType.WARPED, settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
+
+
+
+    // STRIPPED FENCE GATES
+    val STRIPPED_OAK_WOOD_FENCE_GATE = registerBlockWithItem("stripped_oak_wood_fence_gate", { settings -> FenceGateBlock(WoodType.OAK, settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
+    val STRIPPED_SPRUCE_WOOD_FENCE_GATE = registerBlockWithItem("stripped_spruce_wood_fence_gate", { settings -> FenceGateBlock(WoodType.SPRUCE, settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
+    val STRIPPED_BIRCH_WOOD_FENCE_GATE = registerBlockWithItem("stripped_birch_wood_fence_gate", { settings -> FenceGateBlock(WoodType.BIRCH, settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)).first
+    val STRIPPED_JUNGLE_WOOD_FENCE_GATE = registerBlockWithItem("stripped_jungle_wood_fence_gate", { settings -> FenceGateBlock(WoodType.JUNGLE, settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)).first
+    val STRIPPED_ACACIA_WOOD_FENCE_GATE = registerBlockWithItem("stripped_acacia_wood_fence_gate", { settings -> FenceGateBlock(WoodType.ACACIA, settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)).first
+    val STRIPPED_DARK_OAK_WOOD_FENCE_GATE = registerBlockWithItem("stripped_dark_oak_wood_fence_gate", { settings -> FenceGateBlock(WoodType.DARK_OAK, settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)).first
+    val STRIPPED_MANGROVE_WOOD_FENCE_GATE = registerBlockWithItem("stripped_mangrove_wood_fence_gate", { settings -> FenceGateBlock(WoodType.MANGROVE, settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)).first
+    val STRIPPED_CHERRY_WOOD_FENCE_GATE = registerBlockWithItem("stripped_cherry_wood_fence_gate", { settings -> FenceGateBlock(WoodType.CHERRY, settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)).first
+    val STRIPPED_PALE_OAK_WOOD_FENCE_GATE = registerBlockWithItem("stripped_pale_oak_wood_fence_gate", { settings -> FenceGateBlock(WoodType.PALE_OAK, settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD)).first
+    //val STRIPPED_BAMBOO_STEM_FENCE_GATE = registerBlockWithItem("stripped_bamboo_stem_fence_gate", { settings -> FenceGateBlock(WoodType.BAMBOO, settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
+    val STRIPPED_CRIMSON_HYPHAE_FENCE_GATE = registerBlockWithItem("stripped_crimson_hyphae_fence_gate", { settings -> FenceGateBlock(WoodType.CRIMSON, settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
+    val STRIPPED_WARPED_HYPHAE_FENCE_GATE = registerBlockWithItem("stripped_warped_hyphae_fence_gate", { settings -> FenceGateBlock(WoodType.WARPED, settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
+
+    val BAMBOO_MOSAIC_FENCE_GATE = registerBlockWithItem("bamboo_mosaic_fence_gate", { settings -> FenceGateBlock(WoodType.BAMBOO, settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_MOSAIC)).first
 
 
 
@@ -209,6 +281,25 @@ object ModBlocks {
     val CRIMSON_HYPHAE_WALL = registerBlockWithItem("crimson_hyphae_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
     val WARPED_HYPHAE_WALL = registerBlockWithItem("warped_hyphae_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
 
+
+
+    // STRIPPED WALLS
+    val STRIPPED_OAK_WOOD_WALL = registerBlockWithItem("stripped_oak_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
+    val STRIPPED_SPRUCE_WOOD_WALL = registerBlockWithItem("stripped_spruce_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
+    val STRIPPED_BIRCH_WOOD_WALL = registerBlockWithItem("stripped_birch_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)).first
+    val STRIPPED_JUNGLE_WOOD_WALL = registerBlockWithItem("stripped_jungle_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)).first
+    val STRIPPED_ACACIA_WOOD_WALL = registerBlockWithItem("stripped_acacia_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)).first
+    val STRIPPED_DARK_OAK_WOOD_WALL = registerBlockWithItem("stripped_dark_oak_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)).first
+    val STRIPPED_MANGROVE_WOOD_WALL = registerBlockWithItem("stripped_mangrove_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)).first
+    val STRIPPED_CHERRY_WOOD_WALL = registerBlockWithItem("stripped_cherry_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)).first
+    val STRIPPED_PALE_OAK_WOOD_WALL = registerBlockWithItem("stripped_pale_oak_wood_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD)).first
+    //val STRIPPED_BAMBOO_STEM_WALL = registerBlockWithItem("stripped_bamboo_stem_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
+    val STRIPPED_CRIMSON_HYPHAE_WALL = registerBlockWithItem("stripped_crimson_hyphae_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
+    val STRIPPED_WARPED_HYPHAE_WALL = registerBlockWithItem("stripped_warped_hyphae_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
+
+
+
+    // PLANK WALLS
     val OAK_PLANK_WALL = registerBlockWithItem("oak_plank_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)).first
     val SPRUCE_PLANK_WALL = registerBlockWithItem("spruce_plank_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_PLANKS)).first
     val BIRCH_PLANK_WALL = registerBlockWithItem("birch_plank_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS)).first
@@ -221,6 +312,8 @@ object ModBlocks {
     val BAMBOO_PLANK_WALL = registerBlockWithItem("bamboo_plank_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
     val CRIMSON_PLANK_WALL = registerBlockWithItem("crimson_plank_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS)).first
     val WARPED_PLANK_WALL = registerBlockWithItem("warped_plank_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_PLANKS)).first
+
+    val BAMBOO_MOSAIC_WALL = registerBlockWithItem("bamboo_mosaic_wall", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_MOSAIC)).first
 
 
 
@@ -240,6 +333,22 @@ object ModBlocks {
 
 
 
+    // STRIPPED SLABS
+    val STRIPPED_OAK_WOOD_SLAB = registerBlockWithItem("stripped_oak_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
+    val STRIPPED_SPRUCE_WOOD_SLAB = registerBlockWithItem("stripped_spruce_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
+    val STRIPPED_BIRCH_WOOD_SLAB = registerBlockWithItem("stripped_birch_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)).first
+    val STRIPPED_JUNGLE_WOOD_SLAB = registerBlockWithItem("stripped_jungle_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)).first
+    val STRIPPED_ACACIA_WOOD_SLAB = registerBlockWithItem("stripped_acacia_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)).first
+    val STRIPPED_DARK_OAK_WOOD_SLAB = registerBlockWithItem("stripped_dark_oak_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)).first
+    val STRIPPED_MANGROVE_WOOD_SLAB = registerBlockWithItem("stripped_mangrove_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)).first
+    val STRIPPED_CHERRY_WOOD_SLAB = registerBlockWithItem("stripped_cherry_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)).first
+    val STRIPPED_PALE_OAK_WOOD_SLAB = registerBlockWithItem("stripped_pale_oak_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD)).first
+    //val STRIPPED_BAMBOO_STEM_SLAB = registerBlockWithItem("stripped_bamboo_wood_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
+    val STRIPPED_CRIMSON_HYPHAE_SLAB = registerBlockWithItem("stripped_crimson_hyphae_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
+    val STRIPPED_WARPED_HYPHAE_SLAB = registerBlockWithItem("stripped_warped_hyphae_slab", { settings -> SlabBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
+
+
+
     // STAIRS
     val OAK_WOOD_STAIRS = registerBlockWithItem("oak_wood_stairs", { settings -> StairsBlock(Blocks.OAK_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
     val SPRUCE_WOOD_STAIRS = registerBlockWithItem("spruce_wood_stairs", { settings -> StairsBlock(Blocks.SPRUCE_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
@@ -253,6 +362,22 @@ object ModBlocks {
     val BAMBOO_STEM_STAIRS = registerBlockWithItem("bamboo_wood_stairs", { settings -> StairsBlock(Blocks.BAMBOO_BLOCK.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
     val CRIMSON_HYPHAE_STAIRS = registerBlockWithItem("crimson_hyphae_stairs", { settings -> StairsBlock(Blocks.CRIMSON_HYPHAE.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
     val WARPED_HYPHAE_STAIRS = registerBlockWithItem("warped_hyphae_stairs", { settings -> StairsBlock(Blocks.WARPED_HYPHAE.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
+
+
+
+    // STRIPPED STAIRS
+    val STRIPPED_OAK_WOOD_STAIRS = registerBlockWithItem("stripped_oak_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_OAK_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)).first
+    val STRIPPED_SPRUCE_WOOD_STAIRS = registerBlockWithItem("stripped_spruce_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_SPRUCE_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)).first
+    val STRIPPED_BIRCH_WOOD_STAIRS = registerBlockWithItem("stripped_birch_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_BIRCH_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)).first
+    val STRIPPED_JUNGLE_WOOD_STAIRS = registerBlockWithItem("stripped_jungle_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_JUNGLE_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)).first
+    val STRIPPED_ACACIA_WOOD_STAIRS = registerBlockWithItem("stripped_acacia_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_ACACIA_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)).first
+    val STRIPPED_DARK_OAK_WOOD_STAIRS = registerBlockWithItem("stripped_dark_oak_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_DARK_OAK_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)).first
+    val STRIPPED_MANGROVE_WOOD_STAIRS = registerBlockWithItem("stripped_mangrove_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_MANGROVE_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)).first
+    val STRIPPED_CHERRY_WOOD_STAIRS = registerBlockWithItem("stripped_cherry_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_CHERRY_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)).first
+    val STRIPPED_PALE_OAK_WOOD_STAIRS = registerBlockWithItem("stripped_pale_oak_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_PALE_OAK_WOOD.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD)).first
+    //val STRIPPED_BAMBOO_STEM_STAIRS = registerBlockWithItem("stripped_bamboo_wood_stairs", { settings -> StairsBlock(Blocks.STRIPPED_BAMBOO_BLOCK.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)).first
+    val STRIPPED_CRIMSON_HYPHAE_STAIRS = registerBlockWithItem("stripped_crimson_hyphae_stairs", { settings -> StairsBlock(Blocks.CRIMSON_HYPHAE.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)).first
+    val STRIPPED_WARPED_HYPHAE_STAIRS = registerBlockWithItem("stripped_warped_hyphae_stairs", { settings -> StairsBlock(Blocks.STRIPPED_WARPED_HYPHAE.defaultState, settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)).first
 
 
 

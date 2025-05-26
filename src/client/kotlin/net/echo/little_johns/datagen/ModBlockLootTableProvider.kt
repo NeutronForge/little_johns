@@ -74,6 +74,22 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.WARPED_HYPHAE_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
 
+        addDrop(ModBlocks.STRIPPED_OAK_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_SPRUCE_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_BIRCH_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_JUNGLE_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_ACACIA_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_DARK_OAK_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_MANGROVE_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_CHERRY_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_WOOD_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_BAMBOO_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.STRIPPED_WARPED_HYPHAE_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+
+        addDrop(ModBlocks.BAMBOO_MOSAIC_FRAMEWORK) { block -> multifaceGrowthDrops(block) }
+
+
         addDrop(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
@@ -87,6 +103,18 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS) { block -> multifaceGrowthDrops(block) }
 
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_OAK_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_SPRUCE_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_BIRCH_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_JUNGLE_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_ACACIA_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_DARK_OAK_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_MANGROVE_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_CHERRY_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_PALE_OAK_WOOD_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_CRIMSON_HYPHAE_VENEERS) { block -> multifaceGrowthDrops(block) }
+        addDrop(ModBlocks.ECO_FRIENDLY_STRIPPED_WARPED_HYPHAE_VENEERS) { block -> multifaceGrowthDrops(block) }
+
         addDrop(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS) { block -> multifaceGrowthDrops(block) }
@@ -99,6 +127,8 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS) { block -> multifaceGrowthDrops(block) }
         addDrop(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS) { block -> multifaceGrowthDrops(block) }
+
+        addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_MOSAIC_VENEERS) { block -> multifaceGrowthDrops(block) }
 
 
         addDrop(ModBlocks.ECO_FRIENDLY_OAK_LEAF_VENEERS) { block -> multifaceGrowthDrops(block, createWithSilkTouchOrShearsCondition()) }
@@ -155,6 +185,18 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.CRIMSON_HYPHAE_WALL)
         addDrop(ModBlocks.WARPED_HYPHAE_WALL)
 
+        addDrop(ModBlocks.STRIPPED_OAK_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_SPRUCE_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_BIRCH_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_JUNGLE_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_ACACIA_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_DARK_OAK_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_MANGROVE_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_CHERRY_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_WOOD_WALL)
+        addDrop(ModBlocks.STRIPPED_CRIMSON_HYPHAE_WALL)
+        addDrop(ModBlocks.STRIPPED_WARPED_HYPHAE_WALL)
+
         addDrop(ModBlocks.OAK_PLANK_WALL)
         addDrop(ModBlocks.SPRUCE_PLANK_WALL)
         addDrop(ModBlocks.BIRCH_PLANK_WALL)
@@ -167,6 +209,8 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.BAMBOO_PLANK_WALL)
         addDrop(ModBlocks.CRIMSON_PLANK_WALL)
         addDrop(ModBlocks.WARPED_PLANK_WALL)
+
+        addDrop(ModBlocks.BAMBOO_MOSAIC_WALL)
 
 
         addDrop(ModBlocks.OAK_WOOD_FENCE)
@@ -182,6 +226,21 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.CRIMSON_HYPHAE_FENCE)
         addDrop(ModBlocks.WARPED_HYPHAE_FENCE)
 
+        addDrop(ModBlocks.STRIPPED_OAK_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE)
+        addDrop(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE)
+        addDrop(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE)
+
+        addDrop(ModBlocks.BAMBOO_MOSAIC_FENCE)
+
+
         addDrop(ModBlocks.OAK_WOOD_FENCE_GATE)
         addDrop(ModBlocks.SPRUCE_WOOD_FENCE_GATE)
         addDrop(ModBlocks.BIRCH_WOOD_FENCE_GATE)
@@ -194,6 +253,21 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.BAMBOO_STEM_FENCE_GATE)
         addDrop(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
         addDrop(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
+
+        addDrop(ModBlocks.STRIPPED_OAK_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE_GATE)
+        addDrop(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE_GATE)
+
+        addDrop(ModBlocks.BAMBOO_MOSAIC_FENCE_GATE)
+
 
 
         addDrop(ModBlocks.OAK_WOOD_STAIRS)
@@ -209,6 +283,18 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.CRIMSON_HYPHAE_STAIRS)
         addDrop(ModBlocks.WARPED_HYPHAE_STAIRS)
 
+        addDrop(ModBlocks.STRIPPED_OAK_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_SPRUCE_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_BIRCH_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_JUNGLE_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_ACACIA_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_DARK_OAK_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_MANGROVE_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_CHERRY_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_WOOD_STAIRS)
+        addDrop(ModBlocks.STRIPPED_CRIMSON_HYPHAE_STAIRS)
+        addDrop(ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS)
+
         addDrop(ModBlocks.OAK_WOOD_SLAB, slabDrops(ModBlocks.OAK_WOOD_SLAB))
         addDrop(ModBlocks.SPRUCE_WOOD_SLAB, slabDrops(ModBlocks.SPRUCE_WOOD_SLAB))
         addDrop(ModBlocks.BIRCH_WOOD_SLAB, slabDrops(ModBlocks.BIRCH_WOOD_SLAB))
@@ -221,6 +307,18 @@ class ModBlockLootTableProvider(
         addDrop(ModBlocks.BAMBOO_STEM_SLAB, slabDrops(ModBlocks.BAMBOO_STEM_SLAB))
         addDrop(ModBlocks.CRIMSON_HYPHAE_SLAB, slabDrops(ModBlocks.CRIMSON_HYPHAE_SLAB))
         addDrop(ModBlocks.WARPED_HYPHAE_STAIRS, slabDrops(ModBlocks.WARPED_HYPHAE_SLAB))
+
+        addDrop(ModBlocks.STRIPPED_OAK_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_OAK_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_BIRCH_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_BIRCH_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_ACACIA_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_ACACIA_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_CHERRY_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_CHERRY_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB, slabDrops(ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB))
+        addDrop(ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB, slabDrops(ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB))
+        addDrop(ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS, slabDrops(ModBlocks.STRIPPED_WARPED_HYPHAE_SLAB))
 
 
 

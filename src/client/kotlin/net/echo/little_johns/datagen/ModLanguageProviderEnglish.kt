@@ -47,6 +47,19 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS,"Eco Friendly Warped Hyphae Veneers")
 
 
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_OAK_WOOD_VENEERS,"Eco Friendly Stripped Oak Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_SPRUCE_WOOD_VENEERS,"Eco Friendly Stripped Spruce Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_BIRCH_WOOD_VENEERS,"Eco Friendly Stripped Birch Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_JUNGLE_WOOD_VENEERS,"Eco Friendly Stripped Jungle Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_ACACIA_WOOD_VENEERS,"Eco Friendly Stripped Acacia Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_DARK_OAK_WOOD_VENEERS,"Eco Friendly Stripped Dark Oak Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_MANGROVE_WOOD_VENEERS,"Eco Friendly Stripped Mangrove Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_CHERRY_WOOD_VENEERS,"Eco Friendly Stripped Cherry Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_PALE_OAK_WOOD_VENEERS,"Eco Friendly Stripped Pale Wood Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_CRIMSON_HYPHAE_VENEERS,"Eco Friendly Stripped Crimson Hyphae Veneers")
+            add(ModBlocks.ECO_FRIENDLY_STRIPPED_WARPED_HYPHAE_VENEERS,"Eco Friendly Stripped Warped Hyphae Veneers")
+
+
             add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS,"Eco Friendly Oak Plank Veneers")
             add(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS,"Eco Friendly Spruce Plank Veneers")
             add(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS,"Eco Friendly Birch Plank Veneers")
@@ -59,6 +72,7 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS,"Eco Friendly Bamboo Plank Veneers")
             add(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS,"Eco Friendly Crimson Plank Veneers")
             add(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS,"Eco Friendly Warped Plank Veneers")
+            add(ModBlocks.ECO_FRIENDLY_BAMBOO_MOSAIC_VENEERS,"Eco Friendly Bamboo Mosaic Veneers")
 
 
             add(ModBlocks.OAK_WOOD_FRAMEWORK,"Oak Wood Framework")
@@ -73,6 +87,22 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.BAMBOO_FRAMEWORK,"Bamboo Framework")
             add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK,"Crimson Hyphae Framework")
             add(ModBlocks.WARPED_HYPHAE_FRAMEWORK,"Warped Hyphae Framework")
+
+
+            add(ModBlocks.STRIPPED_OAK_WOOD_FRAMEWORK,"Stripped Oak Wood Framework")
+            add(ModBlocks.STRIPPED_SPRUCE_WOOD_FRAMEWORK,"Stripped Spruce Wood Framework")
+            add(ModBlocks.STRIPPED_BIRCH_WOOD_FRAMEWORK,"Stripped Birch Wood Framework")
+            add(ModBlocks.STRIPPED_JUNGLE_WOOD_FRAMEWORK,"Stripped Jungle Wood Framework")
+            add(ModBlocks.STRIPPED_ACACIA_WOOD_FRAMEWORK,"Stripped Acacia Wood Framework")
+            add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FRAMEWORK,"Stripped Dark Oak Wood Framework")
+            add(ModBlocks.STRIPPED_MANGROVE_WOOD_FRAMEWORK,"Stripped Mangrove Wood Framework")
+            add(ModBlocks.STRIPPED_CHERRY_WOOD_FRAMEWORK,"Stripped Cherry Wood Framework")
+            add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FRAMEWORK,"Stripped Pale Oak Wood Framework")
+            add(ModBlocks.STRIPPED_BAMBOO_FRAMEWORK,"Stripped Bamboo Framework")
+            add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FRAMEWORK,"Stripped Crimson Hyphae Framework")
+            add(ModBlocks.STRIPPED_WARPED_HYPHAE_FRAMEWORK,"Stripped Warped Hyphae Framework")
+
+            add(ModBlocks.BAMBOO_MOSAIC_FRAMEWORK,"Bamboo Mosaic Framework")
 
 
 
@@ -133,6 +163,19 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.WARPED_HYPHAE_WALL,"Warped Hyphae Wall")
 
 
+            add(ModBlocks.STRIPPED_OAK_WOOD_WALL,"Stripped Oak Wood Wall")
+            add(ModBlocks.STRIPPED_SPRUCE_WOOD_WALL,"Stripped Spruce Wood Wall")
+            add(ModBlocks.STRIPPED_BIRCH_WOOD_WALL,"Stripped Birch Wood Wall")
+            add(ModBlocks.STRIPPED_JUNGLE_WOOD_WALL,"Stripped Jungle Wood Wall")
+            add(ModBlocks.STRIPPED_ACACIA_WOOD_WALL,"Stripped Acacia Wood Wall")
+            add(ModBlocks.STRIPPED_DARK_OAK_WOOD_WALL,"Stripped Dark Oak Wood Wall")
+            add(ModBlocks.STRIPPED_MANGROVE_WOOD_WALL,"Stripped Mangrove Wood Wall")
+            add(ModBlocks.STRIPPED_CHERRY_WOOD_WALL,"Stripped Cherry Wood Wall")
+            add(ModBlocks.STRIPPED_PALE_OAK_WOOD_WALL,"Stripped Pale Oak Wood Wall")
+            add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_WALL,"Stripped Crimson Hyphae Wall")
+            add(ModBlocks.STRIPPED_WARPED_HYPHAE_WALL,"Stripped Warped Hyphae Wall")
+
+
             add(ModBlocks.OAK_PLANK_WALL,"Oak Plank Wall")
             add(ModBlocks.SPRUCE_PLANK_WALL,"Spruce Plank Wall")
             add(ModBlocks.BIRCH_PLANK_WALL,"Birch Plank Wall")
@@ -159,6 +202,23 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.BAMBOO_STEM_FENCE,"Bamboo Fence")
             add(ModBlocks.CRIMSON_HYPHAE_FENCE,"Crimson Hyphae Fence")
             add(ModBlocks.WARPED_HYPHAE_FENCE,"Warped Hyphae Fence")
+            add(ModBlocks.BAMBOO_MOSAIC_WALL,"Bamboo Mosaic Wall")
+
+
+
+            add(ModBlocks.STRIPPED_OAK_WOOD_FENCE,"Stripped Oak Wood Fence")
+            add(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE,"Stripped Spruce Wood Fence")
+            add(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE,"Stripped Birch Wood Fence")
+            add(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE,"Stripped Jungle Wood Fence")
+            add(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE,"Stripped Acacia Wood Fence")
+            add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE,"Stripped Dark Oak Wood Fence")
+            add(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE,"Stripped Mangrove Wood Fence")
+            add(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE,"Stripped Cherry Wood Fence")
+            add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE,"Stripped Pale Oak Wood Fence")
+            add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE,"Stripped Crimson Hyphae Fence")
+            add(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE,"Stripped Warped Hyphae Fence")
+
+            add(ModBlocks.BAMBOO_MOSAIC_FENCE,"Bamboo Mosaic Fence")
 
 
             add(ModBlocks.OAK_WOOD_FENCE_GATE,"Oak Wood Fence Gate")
@@ -175,6 +235,21 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.WARPED_HYPHAE_FENCE_GATE,"Warped Hyphae Fence Gate")
 
 
+            add(ModBlocks.STRIPPED_OAK_WOOD_FENCE_GATE,"Stripped Oak Wood Fence Gate")
+            add(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE_GATE,"Stripped Spruce Wood Fence Gate")
+            add(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE_GATE,"Stripped Birch Wood Fence Gate")
+            add(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE_GATE,"Stripped Jungle Wood Fence Gate")
+            add(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE_GATE,"Stripped Acacia Wood Fence Gate")
+            add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE_GATE,"Stripped Dark Oak Wood Fence Gate")
+            add(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE_GATE,"Stripped Mangrove Wood Fence Gate")
+            add(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE_GATE,"Stripped Cherry Wood Fence Gate")
+            add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE_GATE,"Stripped Pale Oak Wood Fence Gate")
+            add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE_GATE,"Stripped Crimson Hyphae Fence Gate")
+            add(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE_GATE,"Stripped Warped Hyphae Fence Gate")
+
+            add(ModBlocks.BAMBOO_MOSAIC_FENCE_GATE,"Bamboo Mosaic Fence Gate")
+
+
             add(ModBlocks.OAK_WOOD_STAIRS,"Oak Wood Stairs")
             add(ModBlocks.SPRUCE_WOOD_STAIRS,"Spruce Wood Stairs")
             add(ModBlocks.BIRCH_WOOD_STAIRS,"Birch Wood Stairs")
@@ -188,6 +263,20 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.CRIMSON_HYPHAE_STAIRS,"Crimson Hyphae Stairs")
             add(ModBlocks.WARPED_HYPHAE_STAIRS,"Warped Hyphae Stairs")
 
+
+            add(ModBlocks.STRIPPED_OAK_WOOD_STAIRS,"Stripped Oak Wood Stairs")
+            add(ModBlocks.STRIPPED_SPRUCE_WOOD_STAIRS,"Stripped Spruce Wood Stairs")
+            add(ModBlocks.STRIPPED_BIRCH_WOOD_STAIRS,"Stripped Birch Wood Stairs")
+            add(ModBlocks.STRIPPED_JUNGLE_WOOD_STAIRS,"Stripped Jungle Wood Stairs")
+            add(ModBlocks.STRIPPED_ACACIA_WOOD_STAIRS,"Stripped Acacia Wood Stairs")
+            add(ModBlocks.STRIPPED_DARK_OAK_WOOD_STAIRS,"Stripped Dark Oak Wood Stairs")
+            add(ModBlocks.STRIPPED_MANGROVE_WOOD_STAIRS,"Stripped Mangrove Wood Stairs")
+            add(ModBlocks.STRIPPED_CHERRY_WOOD_STAIRS,"Stripped Cherry Wood Stairs")
+            add(ModBlocks.STRIPPED_PALE_OAK_WOOD_STAIRS,"Stripped Pale Oak Wood Stairs")
+            add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_STAIRS,"Stripped Crimson Hyphae Stairs")
+            add(ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS,"Stripped Warped Hyphae Stairs")
+
+
             add(ModBlocks.OAK_WOOD_SLAB,"Oak Wood Slab")
             add(ModBlocks.SPRUCE_WOOD_SLAB,"Spruce Wood Slab")
             add(ModBlocks.BIRCH_WOOD_SLAB,"Birch Wood Slab")
@@ -200,6 +289,19 @@ class ModLanguageProviderEnglish(
             add(ModBlocks.BAMBOO_STEM_SLAB,"Bamboo Slab")
             add(ModBlocks.CRIMSON_HYPHAE_SLAB,"Crimson Hyphae Slab")
             add(ModBlocks.WARPED_HYPHAE_SLAB,"Warped Hyphae Slab")
+
+
+            add(ModBlocks.STRIPPED_OAK_WOOD_SLAB,"Stripped Oak Wood Slab")
+            add(ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB,"Stripped Spruce Wood Slab")
+            add(ModBlocks.STRIPPED_BIRCH_WOOD_SLAB,"Stripped Birch Wood Slab")
+            add(ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB,"Stripped Jungle Wood Slab")
+            add(ModBlocks.STRIPPED_ACACIA_WOOD_SLAB,"Stripped Acacia Wood Slab")
+            add(ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB,"Stripped Dark Oak Wood Slab")
+            add(ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB,"Stripped Mangrove Wood Slab")
+            add(ModBlocks.STRIPPED_CHERRY_WOOD_SLAB,"Stripped Cherry Wood Slab")
+            add(ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB,"Stripped Pale Oak Wood Slab")
+            add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB,"Stripped Crimson Hyphae Slab")
+            add(ModBlocks.STRIPPED_WARPED_HYPHAE_SLAB,"Stripped Warped Hyphae Slab")
 
 
             add(ModBlocks.CHANDELIER, "Chandelier")

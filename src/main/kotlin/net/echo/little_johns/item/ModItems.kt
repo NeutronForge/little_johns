@@ -3,6 +3,7 @@ package net.echo.little_johns.item
 import net.echo.little_johns.LittleJohns
 import net.echo.little_johns.block.ModBlocks
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
+import net.minecraft.block.Blocks
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroups
 import net.minecraft.item.Items
@@ -179,6 +180,13 @@ object ModItems {
             content.addAfter(ModBlocks.OAK_WOOD_FENCE, ModBlocks.OAK_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS, ModBlocks.OAK_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_OAK_WOOD, ModBlocks.STRIPPED_OAK_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_OAK_WOOD_STAIRS, ModBlocks.STRIPPED_OAK_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_OAK_WOOD_SLAB, ModBlocks.STRIPPED_OAK_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_OAK_WOOD_WALL, ModBlocks.STRIPPED_OAK_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_OAK_WOOD_FENCE, ModBlocks.STRIPPED_OAK_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_OAK_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_OAK_WOOD_VENEERS, ModBlocks.STRIPPED_OAK_WOOD_FRAMEWORK)
             content.addAfter(Items.OAK_SLAB, ModBlocks.OAK_PLANK_WALL)
             content.addAfter(Items.OAK_FENCE_GATE, ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS)
         }
@@ -192,6 +200,13 @@ object ModItems {
             content.addAfter(ModBlocks.SPRUCE_WOOD_FENCE, ModBlocks.SPRUCE_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.SPRUCE_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS, ModBlocks.SPRUCE_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_SPRUCE_WOOD, ModBlocks.STRIPPED_SPRUCE_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_SPRUCE_WOOD_STAIRS, ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB, ModBlocks.STRIPPED_SPRUCE_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_SPRUCE_WOOD_WALL, ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE, ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_SPRUCE_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_SPRUCE_WOOD_VENEERS, ModBlocks.STRIPPED_SPRUCE_WOOD_FRAMEWORK)
             content.addAfter(Items.SPRUCE_SLAB, ModBlocks.SPRUCE_PLANK_WALL)
             content.addAfter(Items.SPRUCE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS)
         }
@@ -205,6 +220,13 @@ object ModItems {
             content.addAfter(ModBlocks.BIRCH_WOOD_FENCE, ModBlocks.BIRCH_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.BIRCH_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS, ModBlocks.BIRCH_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_BIRCH_WOOD, ModBlocks.STRIPPED_BIRCH_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_BIRCH_WOOD_STAIRS, ModBlocks.STRIPPED_BIRCH_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_BIRCH_WOOD_SLAB, ModBlocks.STRIPPED_BIRCH_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_BIRCH_WOOD_WALL, ModBlocks.STRIPPED_BIRCH_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE, ModBlocks.STRIPPED_BIRCH_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_BIRCH_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_BIRCH_WOOD_VENEERS, ModBlocks.STRIPPED_BIRCH_WOOD_FRAMEWORK)
             content.addAfter(Items.BIRCH_SLAB, ModBlocks.BIRCH_PLANK_WALL)
             content.addAfter(Items.BIRCH_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS)
         }
@@ -218,6 +240,13 @@ object ModItems {
             content.addAfter(ModBlocks.JUNGLE_WOOD_FENCE, ModBlocks.JUNGLE_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.JUNGLE_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_JUNGLE_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_JUNGLE_WOOD_VENEERS, ModBlocks.JUNGLE_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_JUNGLE_WOOD, ModBlocks.STRIPPED_JUNGLE_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_JUNGLE_WOOD_STAIRS, ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB, ModBlocks.STRIPPED_JUNGLE_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_JUNGLE_WOOD_WALL, ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE, ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_JUNGLE_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_JUNGLE_WOOD_VENEERS, ModBlocks.STRIPPED_JUNGLE_WOOD_FRAMEWORK)
             content.addAfter(Items.JUNGLE_SLAB, ModBlocks.JUNGLE_PLANK_WALL)
             content.addAfter(Items.JUNGLE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS)
         }
@@ -231,6 +260,13 @@ object ModItems {
             content.addAfter(ModBlocks.ACACIA_WOOD_FENCE, ModBlocks.ACACIA_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.ACACIA_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_ACACIA_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_ACACIA_WOOD_VENEERS, ModBlocks.ACACIA_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_ACACIA_WOOD, ModBlocks.STRIPPED_ACACIA_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_ACACIA_WOOD_STAIRS, ModBlocks.STRIPPED_ACACIA_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_ACACIA_WOOD_SLAB, ModBlocks.STRIPPED_ACACIA_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_ACACIA_WOOD_WALL, ModBlocks.STRIPPED_ACACIA_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE, ModBlocks.STRIPPED_ACACIA_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_ACACIA_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_ACACIA_WOOD_VENEERS, ModBlocks.STRIPPED_ACACIA_WOOD_FRAMEWORK)
             content.addAfter(Items.ACACIA_SLAB, ModBlocks.ACACIA_PLANK_WALL)
             content.addAfter(Items.ACACIA_FENCE_GATE, ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS)
         }
@@ -244,6 +280,13 @@ object ModItems {
             content.addAfter(ModBlocks.DARK_OAK_WOOD_FENCE, ModBlocks.DARK_OAK_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.DARK_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS, ModBlocks.DARK_OAK_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_DARK_OAK_WOOD, ModBlocks.STRIPPED_DARK_OAK_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_DARK_OAK_WOOD_STAIRS, ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB, ModBlocks.STRIPPED_DARK_OAK_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_DARK_OAK_WOOD_WALL, ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE, ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_DARK_OAK_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_DARK_OAK_WOOD_VENEERS, ModBlocks.STRIPPED_DARK_OAK_WOOD_FRAMEWORK)
             content.addAfter(Items.DARK_OAK_SLAB, ModBlocks.DARK_OAK_PLANK_WALL)
             content.addAfter(Items.DARK_OAK_FENCE_GATE, ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS)
         }
@@ -257,6 +300,13 @@ object ModItems {
             content.addAfter(ModBlocks.MANGROVE_WOOD_FENCE, ModBlocks.MANGROVE_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.MANGROVE_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_MANGROVE_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_MANGROVE_WOOD_VENEERS, ModBlocks.MANGROVE_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_MANGROVE_WOOD, ModBlocks.STRIPPED_MANGROVE_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_MANGROVE_WOOD_STAIRS, ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB, ModBlocks.STRIPPED_MANGROVE_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_MANGROVE_WOOD_WALL, ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE, ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_MANGROVE_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_MANGROVE_WOOD_VENEERS, ModBlocks.STRIPPED_MANGROVE_WOOD_FRAMEWORK)
             content.addAfter(Items.MANGROVE_SLAB, ModBlocks.MANGROVE_PLANK_WALL)
             content.addAfter(Items.MANGROVE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS)
         }
@@ -270,6 +320,13 @@ object ModItems {
             content.addAfter(ModBlocks.CHERRY_WOOD_FENCE, ModBlocks.CHERRY_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.CHERRY_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS, ModBlocks.CHERRY_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_CHERRY_WOOD, ModBlocks.STRIPPED_CHERRY_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_CHERRY_WOOD_STAIRS, ModBlocks.STRIPPED_CHERRY_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_CHERRY_WOOD_SLAB, ModBlocks.STRIPPED_CHERRY_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_CHERRY_WOOD_WALL, ModBlocks.STRIPPED_CHERRY_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE, ModBlocks.STRIPPED_CHERRY_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_CHERRY_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_CHERRY_WOOD_VENEERS, ModBlocks.STRIPPED_CHERRY_WOOD_FRAMEWORK)
             content.addAfter(Items.CHERRY_SLAB, ModBlocks.CHERRY_PLANK_WALL)
             content.addAfter(Items.CHERRY_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS)
         }
@@ -283,6 +340,13 @@ object ModItems {
             content.addAfter(ModBlocks.PALE_OAK_WOOD_FENCE, ModBlocks.PALE_OAK_WOOD_FENCE_GATE)
             content.addAfter(ModBlocks.PALE_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_PALE_OAK_WOOD_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_PALE_OAK_WOOD_VENEERS, ModBlocks.PALE_OAK_WOOD_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_PALE_OAK_WOOD, ModBlocks.STRIPPED_PALE_OAK_WOOD_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_PALE_OAK_WOOD_STAIRS, ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB, ModBlocks.STRIPPED_PALE_OAK_WOOD_WALL)
+            content.addAfter(ModBlocks.STRIPPED_PALE_OAK_WOOD_WALL, ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE, ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_PALE_OAK_WOOD_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_PALE_OAK_WOOD_VENEERS, ModBlocks.STRIPPED_PALE_OAK_WOOD_FRAMEWORK)
             content.addAfter(Items.PALE_OAK_SLAB, ModBlocks.PALE_OAK_PLANK_WALL)
             content.addAfter(Items.PALE_OAK_FENCE_GATE, ModBlocks.ECO_FRIENDLY_PALE_OAK_PLANK_VENEERS)
         }
@@ -296,8 +360,19 @@ object ModItems {
             content.addAfter(ModBlocks.BAMBOO_STEM_FENCE, ModBlocks.BAMBOO_STEM_FENCE_GATE)
             content.addAfter(ModBlocks.BAMBOO_STEM_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS, ModBlocks.BAMBOO_FRAMEWORK)
-            content.addAfter(Items.BAMBOO_SLAB, ModBlocks.BAMBOO_PLANK_WALL)
-            content.addAfter(Items.BAMBOO_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS)
+
+
+            content.addAfter(Items.BAMBOO_MOSAIC_SLAB, ModBlocks.BAMBOO_PLANK_WALL)
+            content.addAfter(ModBlocks.BAMBOO_PLANK_WALL, ModBlocks.BAMBOO_MOSAIC_WALL)
+            content.addAfter(Items.BAMBOO_FENCE, ModBlocks.BAMBOO_MOSAIC_FENCE)
+            content.addAfter(Items.BAMBOO_FENCE_GATE, ModBlocks.BAMBOO_MOSAIC_FENCE_GATE)
+            content.addAfter(ModBlocks.BAMBOO_MOSAIC_FENCE_GATE, ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS, ModBlocks.ECO_FRIENDLY_BAMBOO_MOSAIC_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_BAMBOO_MOSAIC_VENEERS, ModBlocks.STRIPPED_BAMBOO_FRAMEWORK)
+            content.addAfter(ModBlocks.STRIPPED_BAMBOO_FRAMEWORK, ModBlocks.BAMBOO_MOSAIC_FRAMEWORK)
+
+
+
         }
 
         // Crimson
@@ -309,6 +384,13 @@ object ModItems {
             content.addAfter(ModBlocks.CRIMSON_HYPHAE_FENCE, ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
             content.addAfter(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS, ModBlocks.CRIMSON_HYPHAE_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_CRIMSON_HYPHAE, ModBlocks.STRIPPED_CRIMSON_HYPHAE_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_CRIMSON_HYPHAE_STAIRS, ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB, ModBlocks.STRIPPED_CRIMSON_HYPHAE_WALL)
+            content.addAfter(ModBlocks.STRIPPED_CRIMSON_HYPHAE_WALL, ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE, ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_CRIMSON_HYPHAE_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_CRIMSON_HYPHAE_VENEERS, ModBlocks.STRIPPED_CRIMSON_HYPHAE_FRAMEWORK)
             content.addAfter(Items.CRIMSON_SLAB, ModBlocks.CRIMSON_PLANK_WALL)
             content.addAfter(Items.CRIMSON_FENCE_GATE, ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS)
         }
@@ -322,6 +404,13 @@ object ModItems {
             content.addAfter(ModBlocks.WARPED_HYPHAE_FENCE, ModBlocks.WARPED_HYPHAE_FENCE_GATE)
             content.addAfter(ModBlocks.WARPED_HYPHAE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS)
             content.addAfter(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS, ModBlocks.WARPED_HYPHAE_FRAMEWORK)
+            content.addAfter(Blocks.STRIPPED_WARPED_HYPHAE, ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS)
+            content.addAfter(ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS, ModBlocks.STRIPPED_WARPED_HYPHAE_SLAB)
+            content.addAfter(ModBlocks.STRIPPED_WARPED_HYPHAE_SLAB, ModBlocks.STRIPPED_WARPED_HYPHAE_WALL)
+            content.addAfter(ModBlocks.STRIPPED_WARPED_HYPHAE_WALL, ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE)
+            content.addAfter(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE, ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE_GATE)
+            content.addAfter(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE_GATE, ModBlocks.ECO_FRIENDLY_STRIPPED_WARPED_HYPHAE_VENEERS)
+            content.addAfter(ModBlocks.ECO_FRIENDLY_STRIPPED_WARPED_HYPHAE_VENEERS, ModBlocks.STRIPPED_WARPED_HYPHAE_FRAMEWORK)
             content.addAfter(Items.WARPED_SLAB, ModBlocks.WARPED_PLANK_WALL)
             content.addAfter(Items.WARPED_FENCE_GATE, ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS)
         }

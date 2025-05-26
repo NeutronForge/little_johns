@@ -80,18 +80,20 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK)
             .add(ModBlocks.WARPED_HYPHAE_FRAMEWORK)
 
-            .add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_PALE_OAK_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS)
-            .add(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS)
+            .add(ModBlocks.STRIPPED_OAK_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_BAMBOO_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FRAMEWORK)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_FRAMEWORK)
+
+            .add(ModBlocks.BAMBOO_MOSAIC_FRAMEWORK)
 
             .add(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS)
             .add(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS)
@@ -106,6 +108,34 @@ class ModBlockTagProvider(
             .add(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS)
             .add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS)
 
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_OAK_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_SPRUCE_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_BIRCH_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_JUNGLE_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_ACACIA_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_DARK_OAK_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_MANGROVE_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_CHERRY_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_PALE_OAK_WOOD_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_CRIMSON_HYPHAE_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_STRIPPED_WARPED_HYPHAE_VENEERS)
+
+            .add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_PALE_OAK_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS)
+            .add(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS)
+
+            .add(ModBlocks.ECO_FRIENDLY_BAMBOO_MOSAIC_VENEERS)
+
+
             .add(ModBlocks.OAK_WOOD_FENCE)
             .add(ModBlocks.SPRUCE_WOOD_FENCE)
             .add(ModBlocks.BIRCH_WOOD_FENCE)
@@ -118,6 +148,21 @@ class ModBlockTagProvider(
             .add(ModBlocks.BAMBOO_STEM_FENCE)
             .add(ModBlocks.CRIMSON_HYPHAE_FENCE)
             .add(ModBlocks.WARPED_HYPHAE_FENCE)
+
+            .add(ModBlocks.STRIPPED_OAK_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE)
+
+            .add(ModBlocks.BAMBOO_MOSAIC_FENCE)
+
 
             .add(ModBlocks.OAK_WOOD_FENCE_GATE)
             .add(ModBlocks.SPRUCE_WOOD_FENCE_GATE)
@@ -132,18 +177,20 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
             .add(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
 
-            .add(ModBlocks.OAK_PLANK_WALL)
-            .add(ModBlocks.SPRUCE_PLANK_WALL)
-            .add(ModBlocks.BIRCH_PLANK_WALL)
-            .add(ModBlocks.JUNGLE_PLANK_WALL)
-            .add(ModBlocks.ACACIA_PLANK_WALL)
-            .add(ModBlocks.DARK_OAK_PLANK_WALL)
-            .add(ModBlocks.MANGROVE_PLANK_WALL)
-            .add(ModBlocks.CHERRY_PLANK_WALL)
-            .add(ModBlocks.PALE_OAK_PLANK_WALL)
-            .add(ModBlocks.BAMBOO_PLANK_WALL)
-            .add(ModBlocks.CRIMSON_PLANK_WALL)
-            .add(ModBlocks.WARPED_PLANK_WALL)
+            .add(ModBlocks.STRIPPED_OAK_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE_GATE)
+
+            .add(ModBlocks.BAMBOO_MOSAIC_FENCE_GATE)
+
 
             .add(ModBlocks.OAK_WOOD_WALL)
             .add(ModBlocks.SPRUCE_WOOD_WALL)
@@ -158,6 +205,34 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_WALL)
             .add(ModBlocks.WARPED_HYPHAE_WALL)
 
+            .add(ModBlocks.STRIPPED_OAK_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_WALL)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_WALL)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_WALL)
+
+            .add(ModBlocks.BAMBOO_MOSAIC_WALL)
+
+
+
+            .add(ModBlocks.OAK_PLANK_WALL)
+            .add(ModBlocks.SPRUCE_PLANK_WALL)
+            .add(ModBlocks.BIRCH_PLANK_WALL)
+            .add(ModBlocks.JUNGLE_PLANK_WALL)
+            .add(ModBlocks.ACACIA_PLANK_WALL)
+            .add(ModBlocks.DARK_OAK_PLANK_WALL)
+            .add(ModBlocks.MANGROVE_PLANK_WALL)
+            .add(ModBlocks.CHERRY_PLANK_WALL)
+            .add(ModBlocks.PALE_OAK_PLANK_WALL)
+            .add(ModBlocks.BAMBOO_PLANK_WALL)
+            .add(ModBlocks.CRIMSON_PLANK_WALL)
+            .add(ModBlocks.WARPED_PLANK_WALL)
             .add(ModBlocks.OAK_WOOD_STAIRS)
             .add(ModBlocks.SPRUCE_WOOD_STAIRS)
             .add(ModBlocks.BIRCH_WOOD_STAIRS)
@@ -171,6 +246,18 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_STAIRS)
             .add(ModBlocks.WARPED_HYPHAE_STAIRS)
 
+            .add(ModBlocks.STRIPPED_OAK_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_STAIRS)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS)
+
             .add(ModBlocks.OAK_WOOD_SLAB)
             .add(ModBlocks.SPRUCE_WOOD_SLAB)
             .add(ModBlocks.BIRCH_WOOD_SLAB)
@@ -183,6 +270,19 @@ class ModBlockTagProvider(
             .add(ModBlocks.BAMBOO_STEM_SLAB)
             .add(ModBlocks.CRIMSON_HYPHAE_SLAB)
             .add(ModBlocks.WARPED_HYPHAE_SLAB)
+
+            .add(ModBlocks.STRIPPED_OAK_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_SLAB)
+
 
 
 
@@ -334,6 +434,8 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_WALL)
             .add(ModBlocks.WARPED_HYPHAE_WALL)
 
+            .add(ModBlocks.BAMBOO_MOSAIC_WALL)
+
 
             .add(ModBlocks.OAK_LEAF_HEDGE)
             .add(ModBlocks.SPRUCE_LEAF_HEDGE)
@@ -370,6 +472,21 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_FENCE)
             .add(ModBlocks.WARPED_HYPHAE_FENCE)
 
+           .add(ModBlocks.STRIPPED_OAK_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE)
+
+            .add(ModBlocks.BAMBOO_MOSAIC_FENCE)
+
+
 
 
         // FENCE GATE BLOCK TAG
@@ -386,6 +503,20 @@ class ModBlockTagProvider(
             .add(ModBlocks.BAMBOO_STEM_FENCE_GATE)
             .add(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
             .add(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
+
+            .add(ModBlocks.STRIPPED_OAK_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_FENCE_GATE)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_FENCE_GATE)
+
+            .add(ModBlocks.BAMBOO_MOSAIC_FENCE_GATE)
 
 
 
@@ -406,6 +537,18 @@ class ModBlockTagProvider(
             .add(ModBlocks.CRIMSON_HYPHAE_STAIRS)
             .add(ModBlocks.WARPED_HYPHAE_STAIRS)
 
+            .add(ModBlocks.STRIPPED_OAK_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_STAIRS)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_STAIRS)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_STAIRS)
+
 
 
         // SLAB BLOCK TAG
@@ -424,6 +567,19 @@ class ModBlockTagProvider(
             .add(ModBlocks.BAMBOO_STEM_SLAB)
             .add(ModBlocks.CRIMSON_HYPHAE_SLAB)
             .add(ModBlocks.WARPED_HYPHAE_SLAB)
+
+            .add(ModBlocks.STRIPPED_OAK_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_SPRUCE_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_BIRCH_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_JUNGLE_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_ACACIA_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_DARK_OAK_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_MANGROVE_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_CHERRY_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_PALE_OAK_WOOD_SLAB)
+            .add(ModBlocks.STRIPPED_CRIMSON_HYPHAE_SLAB)
+            .add(ModBlocks.STRIPPED_WARPED_HYPHAE_SLAB)
+
 
 
     }
