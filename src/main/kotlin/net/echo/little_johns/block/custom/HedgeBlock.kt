@@ -1,21 +1,19 @@
 package net.echo.little_johns.block.custom
 
 import com.mojang.serialization.MapCodec
-import net.minecraft.block.Block
 import net.minecraft.block.BlockState
-import net.minecraft.item.ItemPlacementContext
+import net.minecraft.block.WallBlock
 import net.minecraft.particle.ParticleTypes
 import net.minecraft.particle.ParticleUtil
-import net.minecraft.state.StateManager
 import net.minecraft.util.math.BlockPos
 import net.minecraft.util.math.Direction
 import net.minecraft.util.math.random.Random
 import net.minecraft.world.World
 
-abstract class EcoFriendlyLeavesVeneersBlock(
+abstract class HedgeBlock(
     protected val leafParticleChance: Float,
     settings: Settings
-) : ModdedMultifaceBlock(settings) {
+) : CustomWallBlock(settings) {
 
     override fun randomDisplayTick(state: BlockState, world: World, pos: BlockPos, random: Random) {
         super.randomDisplayTick(state, world, pos, random)

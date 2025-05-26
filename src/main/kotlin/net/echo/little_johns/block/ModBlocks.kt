@@ -8,7 +8,9 @@ import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock
 import net.echo.little_johns.block.custom.GrandChainBlock
 import net.echo.little_johns.block.custom.TableSawBlock
 import net.echo.little_johns.block.custom.TintedParticleEcoFriendlyLeavesVeneersBlock
+import net.echo.little_johns.block.custom.TintedParticleHedgeBlock
 import net.echo.little_johns.block.custom.UntintedParticleEcoFriendlyLeavesVeneersBlock
+import net.echo.little_johns.block.custom.UntintedParticleHedgeBlock
 import net.echo.little_johns.item.ModItems
 import net.echo.little_johns.sound.ModBlockSoundGroup
 import net.minecraft.block.AbstractBlock
@@ -180,18 +182,18 @@ object ModBlocks {
 
 
     // LEAF HEDGES
-    val OAK_LEAF_HEDGE = registerBlockWithItem("oak_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).nonOpaque()).first
-    val SPRUCE_LEAF_HEDGE = registerBlockWithItem("spruce_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.SPRUCE_LEAVES).nonOpaque()).first
-    val BIRCH_LEAF_HEDGE = registerBlockWithItem("birch_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES).nonOpaque()).first
-    val JUNGLE_LEAF_HEDGE = registerBlockWithItem("jungle_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.JUNGLE_LEAVES).nonOpaque()).first
-    val ACACIA_LEAF_HEDGE = registerBlockWithItem("acacia_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.ACACIA_LEAVES).nonOpaque()).first
-    val DARK_OAK_LEAF_HEDGE = registerBlockWithItem("dark_oak_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.DARK_OAK_LEAVES).nonOpaque()).first
-    val MANGROVE_LEAF_HEDGE = registerBlockWithItem("mangrove_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MANGROVE_LEAVES).nonOpaque()).first
-    val CHERRY_LEAF_HEDGE = registerBlockWithItem("cherry_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES).nonOpaque()).first
-    val PALE_OAK_LEAF_HEDGE = registerBlockWithItem("pale_oak_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES).nonOpaque()).first
-    val AZALEA_LEAF_HEDGE = registerBlockWithItem("azalea_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.AZALEA_LEAVES).nonOpaque()).first
-    val FLOWERING_AZALEA_LEAF_HEDGE = registerBlockWithItem("flowering_azalea_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.FLOWERING_AZALEA_LEAVES).nonOpaque()).first
-    val BAMBOO_LEAF_HEDGE = registerBlockWithItem("bamboo_leaf_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(ModBlocks.BAMBOO_LEAVES).nonOpaque()).first
+    val OAK_LEAF_HEDGE = registerBlockWithItem("oak_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val SPRUCE_LEAF_HEDGE = registerBlockWithItem("spruce_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val BIRCH_LEAF_HEDGE = registerBlockWithItem("birch_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val JUNGLE_LEAF_HEDGE = registerBlockWithItem("jungle_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val ACACIA_LEAF_HEDGE = registerBlockWithItem("acacia_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val DARK_OAK_LEAF_HEDGE = registerBlockWithItem("dark_oak_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val MANGROVE_LEAF_HEDGE = registerBlockWithItem("mangrove_leaf_hedge", { settings -> TintedParticleHedgeBlock(0.01f, settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
+    val CHERRY_LEAF_HEDGE = registerBlockWithItem("cherry_leaf_hedge", { settings -> UntintedParticleHedgeBlock(0.1f,ParticleTypes.CHERRY_LEAVES, settings) }, AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)).first
+    val PALE_OAK_LEAF_HEDGE = registerBlockWithItem("pale_oak_leaf_hedge", { settings -> UntintedParticleHedgeBlock(0.02f,ParticleTypes.PALE_OAK_LEAVES, settings) }, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES)).first
+    val AZALEA_LEAF_HEDGE = registerBlockWithItem("azalea_leaf_hedge", { settings -> UntintedParticleHedgeBlock(0.01f,EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -9399763), settings) }, createLeavesSettings(BlockSoundGroup.AZALEA_LEAVES)).first
+    val FLOWERING_AZALEA_LEAF_HEDGE = registerBlockWithItem("flowering_azalea_leaf_hedge", { settings -> UntintedParticleHedgeBlock(0.01f,EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -9399763), settings) }, createLeavesSettings(BlockSoundGroup.AZALEA_LEAVES)).first
+    val BAMBOO_LEAF_HEDGE = registerBlockWithItem("bamboo_leaf_hedge", { settings -> UntintedParticleHedgeBlock(0.01f,EntityEffectParticleEffect.create(ParticleTypes.TINTED_LEAVES, -11712407), settings) }, createLeavesSettings(BlockSoundGroup.GRASS)).first
     val NETHER_WART_HEDGE = registerBlockWithItem("nether_wart_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK).nonOpaque()).first
     val WARPED_WART_HEDGE = registerBlockWithItem("warped_wart_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.WARPED_WART_BLOCK).nonOpaque()).first
     val MOSS_HEDGE = registerBlockWithItem("moss_hedge", { settings -> WallBlock(settings) }, AbstractBlock.Settings.copy(Blocks.MOSS_BLOCK).nonOpaque()).first

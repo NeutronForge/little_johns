@@ -106,9 +106,19 @@ class ModBlockModelProvider(
         )
 
         hedgeVariantsList.forEach { (base, wall) ->
-
             blockStateModelGenerator.registerTintableVanillaStyledWall(wall, base)
         }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -118,6 +128,14 @@ class ModBlockModelProvider(
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {
 
         itemModelGenerator.register(ModItems.BORROWED_SCREWS)
+
+
+
+
+
+
+
+
 
     }
 
